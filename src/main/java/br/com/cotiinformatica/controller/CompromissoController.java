@@ -17,6 +17,7 @@ import br.com.cotiinformatica.utils.DateUtil;
 @Controller
 public class CompromissoController {
 
+	@Autowired
 	private CompromissoService compromissoService;
 	
 	@Autowired
